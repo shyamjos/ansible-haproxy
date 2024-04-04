@@ -83,4 +83,5 @@
 - name: Assemble the final configuration file
   assemble: 
     src: /etc/haproxy/compiled
-    dest: /etc/haproxy/haproxy.cfg backup=yes
+    dest: /etc/haproxy/haproxy.cfg
+    backup: yes
